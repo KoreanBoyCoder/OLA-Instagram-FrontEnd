@@ -7,13 +7,13 @@ body {
 
 
 .card {
-  background-color: rgba(82, 13, 13, 0.9); /* dark translucent */
-  border: 2px solid #d3f20c; /* hot pink border */
+  background-color: rgba(66, 190, 54, 0.9); /* dark translucent */
+  border: 2px solid #4d1553; /* hot pink border */
   border-radius: 16px;
   padding: 1rem;
-  color: white;
+  color: rgba(208, 3, 3, 0.725);
   font-weight: bold;
-  box-shadow: 0 4px 12px rgba(232, 183, 196, 0.3);
+  box-shadow: 0 4px 12px rgba(62, 161, 45, 0.3);
 }
 
 .btn {
@@ -31,7 +31,7 @@ input::file-selector-button {
 }
 
 .media-container {
-  border: 2px solid #ff3e70;
+  border: 2px solid #2a1d47;
   border-radius: 12px;
   background-color: #111;
   overflow: hidden;
@@ -50,7 +50,7 @@ input::file-selector-button {
 /* Container for media content (video or image) */
 .media-container {
   border-radius: 0; /* Rectangular media */
-  border: 2px solid #555;
+  border: 2px solid #12668a;
   background: #111;
 }
 
@@ -102,10 +102,10 @@ input::file-selector-button {
   color: #7aa50d;
 }
 .card-text {
-  color: #76c71f;
+  color: #201178;
 }
 .card-text small {
-  color: #0c66ba;
+  color: #244869;
 }
 
 /* Image and video styles */
@@ -127,7 +127,7 @@ input::file-selector-button {
 .card-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #7aa50d;
+  color: #a50d61;
   margin-bottom: 0.5rem;
   font-style: italic;
 }
@@ -135,7 +135,7 @@ input::file-selector-button {
 /* Caption text */
 .card-text {
   font-size: 1rem;
-  color: #76c71f;
+  color: #0e249e;
   font-style:oblique;
 }
 
@@ -174,6 +174,6 @@ input::file-selector-button {
 }
 
 .form-input:focus {
-  border-color: #65363f;
+  border-color: #9e0f29;
   box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 }

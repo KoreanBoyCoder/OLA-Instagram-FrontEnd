@@ -58,7 +58,7 @@ const renderMedia = () => {
   // Make sure URL is properly formatted
   const mediaUrl = media.mediaUrl.startsWith('http') 
     ? media.mediaUrl 
-    : `https://instagram-clone-backend.azurewebsites.net${media.mediaUrl}`;
+    : `https://instagram-clone-backend-olablack.azurewebsites.net${media.mediaUrl}`;
 
   if (media.mediaType === 'video') {
     return (

@@ -32,14 +32,14 @@ function ConsumerView() {
       <div className="search-container mb-4">
         <input
           type="text"
-          placeholder="You can search here..."
+          placeholder="OLA Search..."
           className="form-control"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           style={{
             width: "300px", 
             float: "right",  
-            backgroundColor: "yellow"
+            backgroundColor: "Grey"
             // marginBottom: "2rem", 
           }}
         />
